@@ -16,7 +16,9 @@ class MyApp : public wxApp
     bool OnInit()
     {
       Simple *simple = new Simple(wxT("Simple"));
+      Simple *simple2 = new Simple(wxT("To Simple"));
       simple->Show(true);
+      simple2->Show(true);
       return true;
     }
 };
